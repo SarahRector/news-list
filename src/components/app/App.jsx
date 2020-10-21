@@ -1,6 +1,11 @@
 import React from 'react';
-import Loading from '../loading/loading';
+import Article from '../Articles/Article';
+
 
 export default function App() {
-  return <Loading/>;
+  return <Article
+    title="Test Article"
+    author="GnarWall"
+    description="Things and stuff"
+  />;
 }

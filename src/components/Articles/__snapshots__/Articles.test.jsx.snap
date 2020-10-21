@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component renders App 1`] = `
+exports[`Articles component renders Articles 1`] = `
 <DocumentFragment>
   <ul
     data-testid="articles"

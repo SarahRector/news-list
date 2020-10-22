@@ -18,5 +18,11 @@ exports[`App component renders App 1`] = `
   >
     Search For Articles
   </button>
+  <br />
+  <img
+    alt="Helga walking while screen loads"
+    class="Loading"
+    src="https://media.giphy.com/media/26Ff1nps1k57NTH2w/giphy.gif"
+  />
 </DocumentFragment>
 `;

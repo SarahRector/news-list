@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Articles component renders Articles 1`] = `
+<DocumentFragment>
+  <ul
+    data-testid="articles"
+  >
+    <li>
+      <h1>
+        Wow!
+      </h1>
+      <p>
+        By: Bob Barker
+      </p>
+      <p>
+        Summary: These are words about things.
+      </p>
+    </li>
+    <li>
+      <h1>
+        You're Wearing That?
+      </h1>
+      <p>
+        By: Anne Hathaway
+      </p>
+      <p>
+        Summary: I guess if that's the impression you want to give.
+      </p>
+    </li>
+    <li>
+      <h1>
+        Why Are You Doing It THAT Way?
+      </h1>
+      <p>
+        By: Brandon Roy
+      </p>
+      <p>
+        Summary: I'm just saying, I usually do it this other way and it's better.
+      </p>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

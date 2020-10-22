@@ -6,10 +6,10 @@ exports[`Article component renders Article 1`] = `
     Test Article
   </h1>
   <p>
-    GnarWall
+    By: GnarWall
   </p>
   <p>
-    Things and stuff
+    Summary: Things and stuff
   </p>
 </DocumentFragment>
 `;

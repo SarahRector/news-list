@@ -10,10 +10,10 @@ exports[`Articles component renders Articles 1`] = `
         Wow!
       </h1>
       <p>
-        Bob Barker
+        By: Bob Barker
       </p>
       <p>
-        These are words about things.
+        Summary: These are words about things.
       </p>
     </li>
     <li>
@@ -21,10 +21,10 @@ exports[`Articles component renders Articles 1`] = `
         You're Wearing That?
       </h1>
       <p>
-        Anne Hathaway
+        By: Anne Hathaway
       </p>
       <p>
-        I guess if that's the impression you want to give.
+        Summary: I guess if that's the impression you want to give.
       </p>
     </li>
     <li>
@@ -32,10 +32,10 @@ exports[`Articles component renders Articles 1`] = `
         Why Are You Doing It THAT Way?
       </h1>
       <p>
-        Brandon Roy
+        By: Brandon Roy
       </p>
       <p>
-        I'm just saying, I usually do it this other way and it's better.
+        Summary: I'm just saying, I usually do it this other way and it's better.
       </p>
     </li>
   </ul>

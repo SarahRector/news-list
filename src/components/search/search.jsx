@@ -1,28 +1,27 @@
+/* eslint-disable max-len */
 import React from 'react';
 import PropTypes from 'prop-types';
 
 const Search = ({
-  text,
+  search,
   onChange,
   onSubmit
 }) => (
   <>
-    <form onSubmit={onSubmit}>
-      <label htmlFor="text">News Search</label>
-      <input
-        id="text"
-        type="text"
-        name="text"
-        value={text}
-        onChange={onChange}
-      />
-      <button>Search For Articles</button>
-    </form>
+    <label htmlFor="search">News Search</label>
+    <input
+      id="search"
+      type="search"
+      name="search"
+      value={search}
+      onChange={onChange}
+    />
+    <button onClick={onSubmit} data-testid="button">Search For Articles</button>
   </>
 );
 
 Search.propTypes = {
-  text: PropTypes.string.isRequired,
+  search: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired
 };

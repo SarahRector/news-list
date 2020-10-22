@@ -4,11 +4,13 @@ import Search from './search';
 
 describe('Search component', () => {
   afterEach(() => cleanup());
+  const testFunc = function() {};
 
   it('renders Search', () => {
     const { asFragment } = render(<Search
-      text="Words and Stuff"
-      handleChange={() => {}}
+      search="Test"
+      onSubmit={testFunc}
+      onChange={testFunc}
     />);
     expect(asFragment()).toMatchSnapshot();
   });

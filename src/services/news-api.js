@@ -8,7 +8,7 @@ export const getNews = (search) => {
     }
   })
     .then(res => res.json())
-    .then(json => json.map(article => ({
+    .then(json => json.articles.map(article => ({
       title: article.title,
       author: article.author,
       description: article.description
